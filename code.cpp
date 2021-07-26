@@ -43,6 +43,7 @@ void logData(double v){ cerr<<v; }
 void logData(long double v){ cerr<<v; }
 void logData(char v){ cerr<<v; }
 void logData(string v){ cerr<<v; }
+void logData(bool el){ if(el) cerr<<"true"; else cerr<<"false"; }
 
 template <class T, class V> void logData(pair <T, V> v){ type6 }
 template <class T> void logData(list <T> v){ type2 }
